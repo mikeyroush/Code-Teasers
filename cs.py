@@ -12,7 +12,7 @@ for num in given:
 for i, (key, val) in enumerate(dict.items()):
     if val == 1:
         print("Hash Result:", key)
-        exit
+        break
 
 # XOR solution, runtime O(n), only works if other elements occur evenly 
 res = given[0]
